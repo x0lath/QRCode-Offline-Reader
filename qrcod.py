@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import qrcode
 import cv2
 import sys
 
