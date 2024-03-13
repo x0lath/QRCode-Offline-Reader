@@ -7,7 +7,7 @@ from PIL import Image
 
 fpath = sys.argv[1]
 
-im = cv2.imread(fpath)
+qr = cv2.imread(fpath)
 detector = cv2.QRCodeDetector()
-data = detector.detectAndDecode(im)
+data = detector.detectAndDecode(qr)
 print(data[0])
