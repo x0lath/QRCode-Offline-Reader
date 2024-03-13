@@ -6,9 +6,7 @@ import sys
 
 from PIL import Image
 
-fname = sys.argv[1]
-
-fpath = fname
+fpath = sys.argv[1]
 
 im = cv2.imread(fpath)
 detector = cv2.QRCodeDetector()
